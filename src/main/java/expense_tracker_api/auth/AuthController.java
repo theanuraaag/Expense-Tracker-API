@@ -3,13 +3,13 @@ package expense_tracker_api.auth;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import expense_tracker_api.auth.dto.AuthResponse;
 import expense_tracker_api.auth.dto.LoginRequest;
 import expense_tracker_api.auth.dto.RegisterRequest;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.security.SecurityRequirements;
 import jakarta.validation.Valid;
 

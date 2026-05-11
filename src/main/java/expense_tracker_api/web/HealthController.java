@@ -1,4 +1,4 @@
-package expense_tracker_api.health;
+package expense_tracker_api.web;
 
 import java.util.Map;
 
